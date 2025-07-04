@@ -1,13 +1,28 @@
-let num1=prompt("enter num1...:-")
-let num2=prompt("enter num2...:-")
+// Task 6: Number Guessing Game
 
-if(num1<num2){
-    console.log(prompt(("too high!😒")))
-}
-else if(num1>num2){
-    console.log(prompt("too low!🫠"))
-}
-else if(num1==num2){
-    console.log("Congratulations!🎊")
-}
 
+     let y = Math.floor(Math.random() * 10 + 1);
+
+        let guess = 1;
+
+         function s() {
+   
+            let x =prompt("enter a value of x");
+
+            if (x == y) {
+                alert("CONGRATULATIONS!!!🎊");
+            }
+
+            else if (x > y) {
+                guess++;
+                alert("Too high!!😏");
+                s()
+            }
+            else {
+                guess++;
+                alert("Too low!!😒")
+                s()
+            }
+        }
+        s()
+////******************❤️ creat by me 😂
