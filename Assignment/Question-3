@@ -1,0 +1,18 @@
+//3. Find the factorial of a number.
+
+let num=prompt("enter a number:-")
+{
+    if(num==0){
+        console.log("Invailid number😏")
+    }
+    else{
+        let factorial=1;
+    for(let i=1;i<=num;i++){
+    factorial*=i
+  
+}
+  console.log(factorial)
+
+    }
+}
+
