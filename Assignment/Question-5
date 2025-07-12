@@ -1,0 +1,8 @@
+//5. Count the digits in a number.
+
+let num=prompt("Enter digits in a number:-")
+
+let count=String(num)
+
+
+console.log(num.length)
