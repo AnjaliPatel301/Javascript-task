@@ -1,0 +1,15 @@
+//2. Count numbers divisible by 3 between 1 to 100.
+
+
+let num=prompt("enter a number between 1 to 100...:-")
+{
+    if(num%3==0){
+        console.log(" divisible by 3🫠")
+    }
+    else if(num%3!=0){
+        console.log("not divisible by 3😏")
+    }
+    else{
+        console.log("enter a valid num😭")
+    }
+}
