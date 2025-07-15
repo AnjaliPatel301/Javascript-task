@@ -1,1 +1,19 @@
+8. Print the reverse of a string using while loop.
+
+function reverseString(text) {
+  let reversedString = "";
+  let i = text.length - 1; 
+
+  while (i >= 0) {
+    reversedString += text[i]; 
+    i--;
+  }
+
+  return reversedString; 
+}
+
+let str=prompt("Enter a str:-") 
+let reversedStr = reverseString(str);
+console.log(`Reverse str:-"${reversedStr}"`); 
+
 
