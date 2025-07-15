@@ -1,1 +1,12 @@
+9. Print numbers in descending order from N to 1.
 
+
+function str(n) {
+  for (let i = n; i >= 1; i--) {
+    console.log(i);
+  }
+}
+
+let num = parseInt(prompt("Enter a number:"));
+console.log("Numbers from " + num + " down to 1 using a 'for' loop:");
+str(num);
