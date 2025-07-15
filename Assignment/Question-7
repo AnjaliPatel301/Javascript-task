@@ -1,1 +1,22 @@
+7. Count the number of vowels in a string using while loop.
+let vowels = "aeiouAEIOU";
+
+function countVowels(str) {
+  const vowels = "aeiouAEIOU"; 
+  let count = 0; 
+  let i = 0; 
+
+  while (i < str.length) { 
+    if (vowels.includes(str[i])) {
+      count++; 
+    }
+    i++; 
+  }
+
+  return count;
+}
+let word = prompt("Enter a word😜/sentance:-")
+let vowelCount = countVowels(word);
+console.log(`Total vowels is: ${vowelCount}`);
+
 
