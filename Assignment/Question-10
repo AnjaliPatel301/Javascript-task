@@ -1,1 +1,16 @@
+//10. Count how many times a character appears in a string.
+let str = "javascript";
 
+
+let str = "javascript";
+let char=prompt("Enter any character:-")
+let count = 0;
+
+for (let i = 0; i < str.length; i++) {
+  if (str[i].toLowerCase() === char.toLowerCase()) {
+    count++;
+  }
+}
+
+
+console.log(` ${count} times`);
